@@ -39,8 +39,8 @@ for ad in ads:
     data.append({
         "title": title[0].text,
         "description": description[0].text,
-        "skill": skill[0].text,
-        "price": price[2].text,
+        "skills": skill[0].text,
+        "salary": price[2].text,
     })
 
 js=json.dumps(data)
